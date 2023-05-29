@@ -2,6 +2,7 @@
 
 This repository contains a Swift iOS application that displays Marvel characters and provides a detailed view with information about each character. The application follows the MVVM (Model-View-ViewModel) design pattern for its architecture. Additionally, to run the app successfully, you'll need to enter the API key and private key credentials in the `.plist` file and run `pod install` to install the necessary dependencies.
 
+
 ## Design Pattern: MVVM (Model-View-ViewModel)
 
 The MVVM design pattern is chosen for this application due to its ability to separate concerns and enhance maintainability and testability. Here's a brief overview of each component in MVVM:
@@ -21,11 +22,34 @@ To successfully run the application, you need to enter your API key and private 
 Please follow these steps to configure the API key and private key:
 
 1. Locate the `.plist` file in the Xcode project.
+
+![Image alt text](./img/config_file_path.png)
+
+
 2. Open the `.plist` file and find the entry for "APIKey" and "PrivateKey".
+
+![Image alt text](./img/config_file.png)
+
 3. Replace the placeholder values with your own API key and private key credentials. Make sure to keep the format intact.
 4. Save the changes to the `.plist` file.
 
 It is essential to keep your API key and private key secure and not share them publicly. You may consider using environment variables or secure storage mechanisms for production deployments.
+
+
+Obtain an api key from the marvel developer portal at the following links:
+
+
+[Marvel Developer Portal](https://developer.marvel.com)
+
+
+![Image alt text](./img/developer_portal.png)
+
+
+[Marvel Developer Account](https://developer.marvel.com/account)
+
+
+![Image alt text](./img/developer_portal_get_api.png)
+
 
 ## Installation and Dependencies
 
