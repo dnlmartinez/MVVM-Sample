@@ -35,6 +35,7 @@
 		E904EE4B2A24EFD30064EF77 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904EE052A2108E10064EF77 /* NetworkService.swift */; };
 		E904EE4C2A24F04B0064EF77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904EDFF2A2108E10064EF77 /* Constants.swift */; };
 		E904EE4D2A24F0FE0064EF77 /* ProtocolDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904EE002A2108E10064EF77 /* ProtocolDataSource.swift */; };
+		E904EE512A2503C00064EF77 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E904EE502A2503C00064EF77 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E904EE3B2A24ECB20064EF77 /* MarvelCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E904EE3D2A24ECB20064EF77 /* MarvelCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersTests.swift; sourceTree = "<group>"; };
 		E904EE442A24ECF40064EF77 /* MasterTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTestCase.swift; sourceTree = "<group>"; };
+		E904EE502A2503C00064EF77 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				E904EDFE2A2108E10064EF77 /* Shared */,
 				E904EE062A2108E10064EF77 /* UI */,
 				E904EDFD2A2108800064EF77 /* Info.plist */,
+				E904EE502A2503C00064EF77 /* Config.plist */,
 				E904EDEF2A21081F0064EF77 /* MarvelCharactersApp.swift */,
 				E904EDF32A2108200064EF77 /* Assets.xcassets */,
 				E904EDF52A2108200064EF77 /* Preview Content */,
@@ -321,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E904EE512A2503C00064EF77 /* Config.plist in Resources */,
 				E904EE1C2A2119150064EF77 /* loader.json in Resources */,
 				E904EDF72A2108200064EF77 /* Preview Assets.xcassets in Resources */,
 				E904EDF42A2108200064EF77 /* Assets.xcassets in Resources */,

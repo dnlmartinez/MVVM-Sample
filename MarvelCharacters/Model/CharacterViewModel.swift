@@ -8,7 +8,6 @@
 import Foundation
 
 class CharacterViewModel: ObservableObject{
-    
     @Injected(\.network)  private var network: NetworkService
     @Published var characterList: [CharacterModel] = [CharacterModel]()
 }
@@ -16,18 +15,31 @@ class CharacterViewModel: ObservableObject{
 
 extension CharacterViewModel: ProtocolDataSource {
     
+    
+    /// Character list
     var characters: [CharacterModel] {
         return self.characterList
     }
     
+    
+    /// A Counter from a character list
     var counter: Int {
         return self.characterList.count
     }
     
+    
+    /// Get a character in the list by position
+    /// - Parameter index: position in the list
+    /// - Returns: a CharacterModel in the list
     func character(for index: Int) -> CharacterModel{
         return self.characterList[index]
     }
 
+    
+    /// Fetch a list of character from 1 to 100
+    /// - Parameters:
+    ///   - completion: a list of characters
+    ///   - failure: error with description
     func load(completion: onCharacters? = nil, failure: onError? = nil){
         network.retrieveCharacters { characters in
             
