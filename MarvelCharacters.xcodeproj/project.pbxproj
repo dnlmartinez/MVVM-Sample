@@ -253,6 +253,7 @@
 				E904EDE82A21081F0064EF77 /* Sources */,
 				E904EDE92A21081F0064EF77 /* Frameworks */,
 				E904EDEA2A21081F0064EF77 /* Resources */,
+				E904EE522A2511270064EF77 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -339,6 +340,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E904EE522A2511270064EF77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$SRCROOT/scripts/set_build_number.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E904EDE82A21081F0064EF77 /* Sources */ = {
